@@ -1,0 +1,29 @@
+.footer{
+    background: #0e0e32;
+
+    &__wrap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: f2(30,0);
+    }
+    &__img{
+        flex-basis: 130px;
+    }
+    &__author{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    &__title{
+        color: white;
+        font-size: f1(60);
+        text-transform: uppercase;
+    }
+    &__desk{
+        color: white;
+        text-transform: uppercase;
+        font-size: f1(36);
+    }
+}

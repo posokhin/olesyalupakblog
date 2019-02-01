@@ -1,0 +1,21 @@
+@-webkit-keyframes logo {
+  from {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg); }
+  to {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg); } }
+
+@keyframes logo {
+  from {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg); }
+  to {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg); } }
+
+.hidden {
+  opacity: 0; }
+
+.visible {
+  opacity: 1; }
