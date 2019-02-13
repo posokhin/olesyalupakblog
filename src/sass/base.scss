@@ -5,12 +5,12 @@
     @return $a/16+rem $b/16+rem;
 }
 *{
-    transition: all 0.2s;
+    /* transition: all 0.2s; */
     box-sizing: border-box;
 }
 html,body{
     min-height: 100%;
-    font-size: 16px;
+    font-size: 100%;
 }
 body{
     font-family: 'AroundTheWorld';
@@ -28,6 +28,9 @@ a{
 h1,h2{
     margin: 0;
     padding: 0;
+}
+h2{
+    text-align: center;
 }
 p{
     margin: 0;

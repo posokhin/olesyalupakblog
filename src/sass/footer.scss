@@ -9,6 +9,8 @@
     }
     &__img{
         flex-basis: 130px;
+        display: flex;
+        align-items: center;
     }
     &__author{
         display: flex;
@@ -20,10 +22,12 @@
         color: white;
         font-size: f1(60);
         text-transform: uppercase;
+        text-align: center;
     }
     &__desk{
         color: white;
         text-transform: uppercase;
         font-size: f1(36);
+        text-align: center;
     }
 }
